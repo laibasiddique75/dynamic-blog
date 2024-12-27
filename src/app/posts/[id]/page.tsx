@@ -72,7 +72,7 @@ const Post: React.FC<PostProps> = ({ params }) => {
         {renderParagraphs(post.description)}
       </div>
 
-      <CommentSection postId={post.id} />
+      <CommentSection />
       <AuthoCard />
     </div>
   );
